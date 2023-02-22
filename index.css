@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eef5ff;
+}
+.WRAPPER{
+    width: max-content;
+    height: max-content;
+    padding: 19px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0 0 6px 2px rgba(204, 204, 204, 0.45);
+}
+.left_WRAPPER{
+    background-image: url('./assets/images/bg-sidebar-desktop.svg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 256px;
+    height: 506px;
+    border-radius: 8px;
+    padding: 26px 36px;
+}.left_WRAPPER .container{
+    display: flex;
+    margin-bottom: 25px;
+}.container .number{
+    border: solid 1px #bee2fb;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: #FFF;
+}.container .text p{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: hwb(0 100% 0% / 0.5);
+    font-family: 'Ubuntu-Regular';
+    padding-bottom: 3px;
+}.container .text h2{
+    font-size: 1em;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Ubuntu-Bold';
+}
