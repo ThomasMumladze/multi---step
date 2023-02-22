@@ -99,7 +99,7 @@ form{
 .formFields{
     width: 100%;
     height: 100%;
-    margin: 20px 0;
+    margin: 12px 0;
 }
 .formFields .filedTitle{
     width: 100%;
@@ -130,7 +130,7 @@ form{
     color: rgba(34, 34, 34, 0.5);
 }
 form button{
-    margin-top: 20px;
+    margin-top: 48px;
     align-self: flex-end;
     width: max-content;
     height: max-content;
@@ -141,4 +141,8 @@ form button{
     border-radius: 8px;
     font-family:'Ubuntu-Medium' ;
     cursor: pointer;
+    transition: .2s ease-in-out all;
+}
+form button:hover{
+    background-color: #004390;
 }
