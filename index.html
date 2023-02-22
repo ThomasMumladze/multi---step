@@ -14,6 +14,7 @@
     <div class="WRAPPER">
         <div class="left_WRAPPER">
             <p class="TITLE">Select Step To Start</p>
+            <!-- *STEP 1 -->
             <div class="container stepButton">
                 <div class="number">1</div>
                 <div class="text">
@@ -21,6 +22,7 @@
                     <h2>your info</h2>
                 </div>
             </div>
+            <!-- *STEP 2 -->
             <div class="container stepButton">
                 <div class="number">2</div>
                 <div class="text">
@@ -28,6 +30,7 @@
                     <h2>select plan</h2>
                 </div>
             </div>
+            <!-- *STEP 3 -->
             <div class="container stepButton">
                 <div class="number">3</div>
                 <div class="text">
@@ -35,6 +38,7 @@
                     <h2>add-ons </h2>
                 </div>
             </div>
+            <!-- *STEP 4 -->
             <div class="container stepButton">
                 <div class="number">4</div>
                 <div class="text">
@@ -43,7 +47,43 @@
                 </div>
             </div>
         </div>
-        <div class="right_WRAPPER"></div>
+        <div class="right_WRAPPER">
+            <div class="personalInfo">
+                <h1>Personal info</h1>
+                <p>Please provide your name, email address, and phone number.</p>
+            </div>
+            <!-- !FORM  -->
+            <form>
+                <div class="nameField formFields">
+                    <div class="filedTitle">
+                        <p>Name</p>
+                        <div class="errorMessages">
+                            <span></span>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="e.g Stephen King" />
+                </div>
+                <div class="emailField formFields">
+                    <div class="filedTitle">
+                        <p>Email Address</p>
+                        <div class="errorMessages">
+                            <span></span>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="e.g stephanking@lorem.com" />
+                </div>
+                <div class="phoneField formFields">
+                    <div class="filedTitle">
+                        <p>Phone Number</p>
+                        <div class="errorMessages">
+                            <span></span>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="e.g +7 234 467 890" />
+                </div>
+                <button type="confirm"> Next Step </button>
+            </form>
+        </div>
     </div>
     <script type="module" src="./index.js"></script>
 </body>
