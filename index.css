@@ -40,7 +40,13 @@ body{
     display: flex;
     margin-bottom: 25px;
     cursor: pointer;
-}.container .number{
+    transition: .2s ease-in-out all;
+    border-bottom: solid 1px transparent;
+    padding: 6px 0;
+}.container:hover{
+    border-bottom: solid 1px #222;
+}
+.container .number{
     border: solid 1px #bee2fb;
     border-radius: 50%;
     width: 35px;
