@@ -39,6 +39,7 @@ body{
 }.left_WRAPPER .container{
     display: flex;
     margin-bottom: 25px;
+    cursor: pointer;
 }.container .number{
     border: solid 1px #bee2fb;
     border-radius: 50%;
